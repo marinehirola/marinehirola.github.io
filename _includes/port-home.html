@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+	{% include head.html %}
+  <body>
+
+		<div class="content">
+			<div class="page-width">
+				{% include header.html %}
+			</div>
+<!-- Homepage Feature -->
+			<div class="fullwidth">
+				<div class="home-blurb pad">
+			  Mariko Hirasawa is a multi-disciplinary designer/maker in Seattle, specializing in digital experience, product design + experimental craft.
+				</div>
+
+			</div>
+			<!-- Homepage Work content -->
+
+			<div class="fullwidth">
+			  <div class="subheader pad">
+			    digital design
+			  </div>
+
+				<!-- Signature Pick Wide Card-->
+
+				<a href="../work/sigpick.html">
+				  <div id="sigpick-home" class="feature fill">
+							<img src="/assets/images/sp-fullwidth4.png" alt="" />
+					</div>
+				</a>
+				<div class="pad">
+					<a class="teaser-tile-inner" href="../work/sigpick.html">
+						<div class="teaser-tile-name project-tags project-type label">
+							<span class="sr-only">Project Tags:</span>
+							Web Design / Branding
+						</div>
+						<div class="project-title">
+							 Signature Pick
+					 	</div>
+					</a>
+			  </div>
+			</div>
+
+
+			<div class="home-small-items row">
+
+				<!-- Spark AR card -->
+
+			  <div class="home-col col-sm-6">
+					<div class="homecard card">
+						<a class="teaser-tile-inner" href="../work/arfilters.html">
+							<div class="teaser-tile-name project-tags project-type label">
+								<span class="sr-only">Project Tags:</span>
+								Augmented Reality
+							</div>
+							<div class="home-img cardfill">
+								<img src="/assets/images/arfilter2.png" alt="" />
+							</div>
+							<div class="project-title">
+								Spark AR Filters
+							</div>
+						</a>
+			    </div>
+				</div>
+
+				<!-- Restart Card -->
+
+			  <div class="home-col col-sm-6">
+			    <div class="homecard card">
+						<a class="teaser-tile-inner" href="../work/restart.html">
+							<div class="teaser-tile-name project-tags project-type label">
+								<span class="sr-only">Project Tags:</span>
+								VISUAL DESIGN
+							</div>
+							<div class="home-img cardfill">
+								<img src="/assets/images/restart-home2@2x.png" alt="" />
+							</div>
+							<div class="project-title">
+								Restart.us
+							</div>
+						</a>
+			    </div>
+			  </div>
+
+			</div>
+
+				<div class="fullwidth">
+				  <div class="subheader pad">
+				    industrial design
+				  </div>
+				</div>
+
+				<div class="home-small-items row">
+
+					<!-- To Go Games Card -->
+
+				  <div class="home-col col-sm-6">
+						<div class="homecard card">
+							<a class="teaser-tile-inner" href="../work/togogames.html">
+								<div class="teaser-tile-name project-tags project-type label">
+									<span class="sr-only">Project Tags:</span>
+									Industrial Design
+								</div>
+								<div class="home-img cardfill">
+									<img src="/assets/images/togohome.png" alt="" />
+								</div>
+								<div class="project-title">
+									To Go Games
+								</div>
+							</a>
+				    </div>
+			  	</div>
+
+					<!-- San Sake Card -->
+
+				  <div class="home-col col-sm-6">
+				    <div class="homecard card">
+							<a class="teaser-tile-inner" href="../work/sansake.html">
+								<div class="teaser-tile-name project-tags project-type label">
+									<span class="sr-only">Project Tags:</span>
+									Ceramics
+								</div>
+								<div class="home-img cardfill">
+									<img src="/assets/images/san-home@2x.png" alt="" />
+								</div>
+								<div class="project-title">
+									San Sake Cups
+								</div>
+							</a>
+				    </div>
+				  </div>
+
+				</div>
+
+
+			{{ content }}
+		</div>
+<!-- /.container -->
+
+			{% include footer.html %}
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      {% include scripts.html %}
+	</body>
+</html>

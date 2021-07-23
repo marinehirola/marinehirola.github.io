@@ -1,0 +1,19 @@
+---
+layout: default
+title: About
+---
+
+<div class="page-width main-content">
+<div class="about-content pad">
+<div class="about-header">Hi, I’m Mariko&nbsp;Hirasawa</div>
+<br>
+<p class="about">I am a multidisciplinary designer & visual artist of beautiful/funny/weird things. My background in industrial and graphic designs blends with a passion for exploring traditional craft mediums and new technology. I find a lot of inspiration in science, nature, food and travel. I consider myself a proud generalist and perpetual student.</p>
+<br>
+<p class="about">I am currently working as visual design lead and e-commerce manager for Redsoul in beautiful Seattle, WA. Open to freelance opportunities, reach out to me iam@marikohirasawa.com to connect.</p>
+</div>
+</div>
+<!-- /.blurb -->
+
+<script>
+
+</script>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+	{% include head.html %}
+  <body>
+
+		<div class="content">
+			<div class="page-width">
+				{% include header.html %}
+			</div>
+<!-- Homepage Feature -->
+			<!-- <div class="fullwidth">
+				<div class="home-blurb pad">
+			  Mariko Hirasawa is a multi-disciplinary designer/maker in Seattle, specializing in digital experiences, product design + experimental craft.
+				</div>
+
+			</div> -->
+{% include homepage-work.html %}
+			<div class="fullwidth">
+			  <div class="subheader pad">
+			    journal
+			  </div>
+			</div>
+			{% include homepage-journal.html %}
+			{{ content }}
+		</div>
+<!-- /.container -->
+
+			{% include footer.html %}
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      {% include scripts.html %}
+	</body>
+</html>

@@ -1,0 +1,155 @@
+#menuToggle
+{
+  display: block;
+  position: relative;
+
+  z-index: 10;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: white;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 20px;
+  height: 4px;
+  margin-bottom: 4px;
+  position: relative;
+
+  background: #FD451D;
+
+
+  z-index: 1;
+
+  transform-origin: 4px -1px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: fixed;
+  width: 100%;
+  height:100%;
+  padding: auto;
+  padding-top: 125px;
+
+  background: #FD9170;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(0, -100%);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  top:0;
+  left:0;
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+.col {
+  max-width:100px;
+}
+#menu .menu-navlg li {
+  font-size: 3rem;
+  line-height: 1.8rem;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+}
+.menu-navsm {
+  margin-top: 8%;
+}
+.follow svg{
+  height:53px;
+  width: 1.3rem;
+  path {
+    transition: fill 0.3s ease;
+  }
+}
+
+.follow svg:hover{
+  path {
+    fill:white;
+  }
+}

@@ -1,0 +1,20 @@
+<div class="home-col col-sm-6">
+    <div class="homecard card">
+        <div class="project-tags">
+
+      <div>{{include.foo}}</div>
+
+          {{site.pages[include.index].tags}}
+        </div>
+        <a href="work/restart.html">
+          <div class="home-img cardfill">
+            {% src = site.pages[index].image %}
+            <img src={{src}} alt="" />
+          </div>
+        </a>
+        <div class="project-title">
+          {{src}}
+          {{site.pages[index].path | Restart.us}}
+        </div>
+    </div>
+</div>

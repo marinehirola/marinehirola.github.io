@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/scss" href="/css/main.scss">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>{{ page.title }}</title>
 
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+		<!-- links to google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Source+Sans+Pro:wght@200;400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+  </head>
+
+  <body>
+		<div class="content">
+		<div class="page-width">
+			{% include header.html %}
+		</div>
 			{{ content }}
+	</div>
 
-			</div><!-- /.container -->
-			<footer>
 
-			</footer>
-		</body>
-	</html>
+
+			<!-- /.container -->
+
+			{% include footer.html %}
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {% include scripts.html %}
+	</body>
+</html>

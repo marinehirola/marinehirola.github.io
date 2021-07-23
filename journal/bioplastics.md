@@ -1,0 +1,47 @@
+---
+layout: post
+title: mariko - journal - coffee coffee cup
+page-title: Coffee Coffee Cup
+tags: EXPERIMENT / BIOPLASTICS
+---
+<div class="wrapper">
+  <div class="project-title">
+    {{page.page-title}}
+  </div>
+  <div class="project-type sm-space">
+    {{page.tags}}
+  </div>
+  <!-- <div class ="main-content space">
+    <img src="/assets/images/Rectangle 230.png">
+  </div> -->
+  <!-- <p class="blog-feature blog-padding">Experimenting with Bioplastics</p> -->
+  <div class="row space align-items-center">
+    <div class ="half-content col-sm-6">
+      <p>I first heard about bioplastics while studying design, but for many years it always was in the context of industrial scale production and material science. Recently though, I was introduced to the work of Materiom, who are creating “nature’s recipe book”, compiling open source recipes for materials made from abundant natural ingredients. While generally art and artisan products are usually more sustainable compared to industrial production, there are certainly many artists and makers concerned about the environmental impact of their work and increasing interest in natural materials and techniques. <br> <br>I wanted to try out a recipe to get a sense of the material and decided that the coffee based bioplastic would be a good use for the extra coffee grinds I’d been generating over the last year, never being too far from the coffee setup. This recipe is made from used coffee grinds, agar, alginate and glycerin. Dried, it has enough flex and give that it tears rather than snaps and if you sand it down it becomes remarkably leather-like. The recipe works, but I think if you use some baking technique and mix all the dry ingredients together before adding the wet ones, it combines easier.
+      </p>
+    </div>
+    <div class ="half-content col-sm-6 blog-img-block coffee-img" >
+      <img src="/assets/images/coffee/CoffeeShrink.png">
+      <div class="blog-caption">
+        <span class="project-tags child">SHRINKAGE</span>
+        <span class="sake-txt">The difference between a freshly demolded seed cup mold and the completely dried result.</span>
+      </div>
+    </div>
+  </div>
+  <div class="row space align-items-center flex-wrap-reverse">
+    <div class ="half-content col-sm-6 blog-img-block coffee-img" >
+      <img src="/assets/images/coffee/CoffeeMold.png">
+      <div class="blog-caption">
+        <span class="project-tags child">MOLDY</span>
+        <span class="sake-txt">What the prototypes looked like after a week as a seed cup. The shape was warped and the coffee developed a blue mold layer.</span>
+      </div>
+    </div>
+    <div class ="half-content col-sm-6">
+      <p>My first idea when I learned about coffee bioplastic was to make seed cups. Used coffee grounds can be a good soil amendment and the cup could be planted directly into the ground. I 3d printed a two part mold out of PLA and started casting. While the bioplastic molds quite well, it has a surprisingly high shrink rate, ~25%, making the cups… significantly smaller than I envisioned. After the cups had dried I planted some seeds, but this revealed another issue, the cups filled with soil dry unevenly with causes them to crack and warp, but also mold on the inside which I can’t imagine is great for plants. The mold has still been useful as a test of how castable are the different mixtures. Coffee Agar bioplastic recipe from @materiom_ .
+<br><br>
+To better understand the role of each ingredient in the final bioplastic, I cooked up versions each missing one part. My general sense is that coffee is of course the main fill element, alginate helps the pieces hold together during the drying or molding process, glycerin works like a plasticizer, giving the bioplastic some amount of give once dried and the agar agar is really what binds everything together, without it you just get wet coffee grounds. Now off to make tweaks! This project is based off the Coffee Agar bioplastic recipe from materiom.org, many many more cool bioplastic formulations over on their website.
+<br><br> To be continued...
+      </p>
+    </div>
+  </div>
+</div>
