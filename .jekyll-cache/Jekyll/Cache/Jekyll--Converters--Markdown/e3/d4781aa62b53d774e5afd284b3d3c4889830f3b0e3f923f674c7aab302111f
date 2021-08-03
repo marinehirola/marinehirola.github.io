@@ -1,11 +1,11 @@
-<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/arrowup.svg">
-</button>
+I"'<p><button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/assets/images/arrowup.svg" />
+</button></p>
 <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-lg-8 milk">
       <div class="row">
         <div class="project-title project-pad">
-          {{page.page-title}}
+          To Go Games
         </div>
         <div class="project-type project-pad sm-space">
           <h2>Wearable Travel Games</h2>
@@ -14,7 +14,7 @@
       <div class="row j5">
         <div class="col-sm-8 ">
           <h3 class="xs-space">Overview</h3>
-          <div class="sm-space">To Go Games was a set of travel friendly games and accessories developed for my senior thesis project. My class’ thesis theme was ‘games’, and we spent the first semester focused on research; conducting user interviews, taking research field trips, and play testing prototypes. My key takeaway was that games are powerful tools for facilitating interpersonal engagement.<br><br>
+          <div class="sm-space">To Go Games was a set of travel friendly games and accessories developed for my senior thesis project. My class’ thesis theme was ‘games’, and we spent the first semester focused on research; conducting user interviews, taking research field trips, and play testing prototypes. My key takeaway was that games are powerful tools for facilitating interpersonal engagement.<br /><br />
 For my final project, I wanted to focus on games as objects of social connection, and noticed that a lot of “travel” games were simply big games scaled down. I saw an opportunity to creating portable games that were designed for travel. The research, designs, and model making were conducting in 2012, but I redesigned the branding document, updated the packaging and took new photography in 2020.</div>
 
         </div>
@@ -58,15 +58,15 @@ For my final project, I wanted to focus on games as objects of social connection
     <div class="row space">
       <div class="col-sm-6">
         <h4 class="sm-space">Competition</h4>
-        <div>While conducting market research about travel games, I observed that a lot of options were just larger games scaled down. Many of these games had hard-to-use, easy-to-lose parts, and often the game play suffered significantly.<br><br>I saw an opportunity to design games and game accessories specifically designed for travellers and people on the go.</div>
+        <div>While conducting market research about travel games, I observed that a lot of options were just larger games scaled down. Many of these games had hard-to-use, easy-to-lose parts, and often the game play suffered significantly.<br /><br />I saw an opportunity to design games and game accessories specifically designed for travellers and people on the go.</div>
       </div>
       <div class="col-sm-6 half-content">
-        <img src="/assets/images/togogames/Ring-Opp.png">
+        <img src="/assets/images/togogames/Ring-Opp.png" />
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 half-content">
-        <img src="/assets/images/togogames/Ring-Prob@2x.png">
+        <img src="/assets/images/togogames/Ring-Prob@2x.png" />
       </div>
     </div>
 
@@ -78,12 +78,12 @@ For my final project, I wanted to focus on games as objects of social connection
     <div class="row sm-space">
       <div class="col-sm-4 half-content">
         <div class="sm-space">I quickly generated ideas and features for travel games, then chose five to develop further. The idea that seemed like the most fun was the Pop-o-matic ring.</div>
-        <img class="xs-space" src="/assets/images/togogames/Ring-Ideate1@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring-Ideate1@2x.png" />
 
       </div>
 
       <div class="col-sm-8 half-content">
-        <img  class="xs-space" src="/assets/images/togogames/Ring-Ideate2@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring-Ideate2@2x.png" />
 
       </div>
       </div>
@@ -95,20 +95,20 @@ For my final project, I wanted to focus on games as objects of social connection
     <div class="row sm-space">
       <div class="col-sm-4 sm-space half-content">
 
-        <img class="xs-space" src="/assets/images/togogames/Ring1@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring1@2x.png" />
 <div>I made a rough working prototype, but scaled up to wrist watch size.</div>
       </div>
       <div class="col-sm-4 half-content">
-        <img class="xs-space" src="/assets/images/togogames/Ring2@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring2@2x.png" />
         <div>Paper models and sketches helped to develop the form and mechanics. I wanted to create a piece that bridged games and accessories.</div>
       </div>
       <div class="col-sm-4 half-content">
-        <img src="/assets/images/togogames/Ring-Sketches@2x.png">
+        <img src="/assets/images/togogames/Ring-Sketches@2x.png" />
       </div>
     </div>
     <div class="row  j5">
       <div class="col-sm-12 half-content">
-        <img class="md-space" src="/assets/images/togogames/Ring-fusion.png">
+        <img class="md-space" src="/assets/images/togogames/Ring-fusion.png" />
       </div>
 
     </div>
@@ -117,36 +117,36 @@ For my final project, I wanted to focus on games as objects of social connection
         <div>I modeled the ring in Solidworks, working out how to be able to press fit the parts together. I decided to start by modeling a size 8 ring, to fit the pop pieces I sourced.</div>
       </div>
       <div class="col-sm-8 half-content">
-        <img class="md-space" src="/assets/images/togogames/Ring-dim@2x.png">
+        <img class="md-space" src="/assets/images/togogames/Ring-dim@2x.png" />
       </div>
 
     </div>
     <div class="row sm-space">
       <div class="col-sm-4 sm-space half-content">
 
-        <img class="xs-space" src="/assets/images/togogames/Ring-Models@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring-Models@2x.png" />
         <div>I had to print out several versions to find what the ideal dimensons were to press fit the ring parts together.</div>
       </div>
 
       <div class="col-sm-8 half-content">
-        <img  class="xs-space" src="/assets/images/togogames/Ring-Cast@2x.png">
+        <img class="xs-space" src="/assets/images/togogames/Ring-Cast@2x.png" />
 
       </div>
       </div>
       <div class="row">
         <div class="col-sm-4 sm-space half-content">
-          <img src="/assets/images/togogames/Ring-Model1@2x.png">
+          <img src="/assets/images/togogames/Ring-Model1@2x.png" />
         </div>
         <div class="col-sm-4 sm-space half-content">
-          <img src="/assets/images/togogames/Ring-Model2@2x.png">
+          <img src="/assets/images/togogames/Ring-Model2@2x.png" />
         </div>
         <div class="col-sm-4 sm-space half-content">
-          <img src="/assets/images/togogames/Ring-Model3@2x.png">
+          <img src="/assets/images/togogames/Ring-Model3@2x.png" />
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 sm-space half-content">
-          <img src="/assets/images/togogames/Ring-Hand@2x.png">
+          <img src="/assets/images/togogames/Ring-Hand@2x.png" />
         </div>
       </div>
   </div>
@@ -156,20 +156,20 @@ For my final project, I wanted to focus on games as objects of social connection
     </div>
     <div class="row">
       <div class="col-sm-4 sm-space half-content">
-        <img src="/assets/images/togogames/Scarf2.png">
+        <img src="/assets/images/togogames/Scarf2.png" />
       </div>
       <div class="col-sm-4 sm-space half-content">
-        <img src="/assets/images/togogames/Scarf1.png">
+        <img src="/assets/images/togogames/Scarf1.png" />
       </div>
       <div class="col-sm-4 sm-space half-content">
-        <img src="/assets/images/togogames/Scarf3.png">
+        <img src="/assets/images/togogames/Scarf3.png" />
       </div>
     </div>
     <div class="row align-items-center">
-      <div class ="col-sm-8 half-content">
+      <div class="col-sm-8 half-content">
         <div>I started working on another wearable game, a scarf that used the theme of travel for the users. It used coins instead of pieces so that parts would be easy to find. I developed a magnetic pin version of the Pop-o-matic.</div>
       </div>
-      <div class ="col-sm-4 half-content xs-space">
+      <div class="col-sm-4 half-content xs-space">
 
       </div>
     </div>
@@ -179,46 +179,46 @@ For my final project, I wanted to focus on games as objects of social connection
       <h3>5. Branding</h3>
     </div>
     <div class="row sm-space align-items-center">
-      <div class ="col-sm-8 half-content xs-space">
+      <div class="col-sm-8 half-content xs-space">
         <div>In 2012, I started my branding document, developed the logo and completed positioning exercises. In 2020, I formatted these exercises into an expanded version with typography, colors and brand imagery.</div>
       </div>
-      <div class ="col-sm-4 half-content xs-space">
+      <div class="col-sm-4 half-content xs-space">
 
       </div>
     </div>
     <div class="row align-items-center">
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand21-02.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand21-02.png">
+        <img src="/assets/images/togogames/brand21-02.png" />
         </a>
       </div>
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand21-11.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand21-11.png">
+        <img src="/assets/images/togogames/brand21-11.png" />
         </a>
       </div>
     </div>
     <div class="row align-items-center">
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand21-05.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand21-05.png">
+        <img src="/assets/images/togogames/brand21-05.png" />
         </a>
       </div>
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand21-06.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand21-06.png">
+        <img src="/assets/images/togogames/brand21-06.png" />
         </a>
       </div>
     </div>
     <div class="row align-items-center">
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand212-08.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand212-08.png">
+        <img src="/assets/images/togogames/brand212-08.png" />
         </a>
       </div>
-      <div class ="col-sm-6 half-content xs-space">
+      <div class="col-sm-6 half-content xs-space">
         <a href="/assets/images/togogames/brand21-09.png" data-lightbox="branding">
-        <img src="/assets/images/togogames/brand21-09.png">
+        <img src="/assets/images/togogames/brand21-09.png" />
         </a>
       </div>
     </div>
@@ -229,10 +229,10 @@ For my final project, I wanted to focus on games as objects of social connection
     </div>
     <div class="row sm-space align-items-center">
       <div class="col-sm-6 sm-space half-content">
-        <img src="/assets/images/togogames/Ring-Pack1@2x.png">
+        <img src="/assets/images/togogames/Ring-Pack1@2x.png" />
       </div>
       <div class="col-sm-6 sm-space half-content">
-        <img src="/assets/images/togogames/Ring-Pack2@2x.png">
+        <img src="/assets/images/togogames/Ring-Pack2@2x.png" />
       </div>
 
 
@@ -240,7 +240,7 @@ For my final project, I wanted to focus on games as objects of social connection
     <div class="row align-items-center">
 
       <div class="col-sm-12 sm-space half-content">
-        <img src="/assets/images/togogames/ring-pack3@2x.png">
+        <img src="/assets/images/togogames/ring-pack3@2x.png" />
       </div>
 
     </div>
@@ -250,3 +250,5 @@ For my final project, I wanted to focus on games as objects of social connection
 </div>
 <div class="col-sm-2"></div>
 </div>
+
+:ET
