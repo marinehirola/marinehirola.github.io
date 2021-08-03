@@ -24,7 +24,6 @@ html, body {
 p {
   line-height: 2em;
   font-family: 'Space Grotesk', 'Open Sans';
-  font-weight:300;
 }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
 {
@@ -64,6 +63,10 @@ h5 {
 }
 h6 {
   font-size: 14px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .content {
   flex: 1 0 auto;
@@ -152,8 +155,7 @@ ul.posts li {
 
 .project-tags {
   //display:inline;
-
-
+  font-family: Open Sans;
   padding:10px 0px;
 }
 .project-type {
@@ -274,8 +276,7 @@ transition: 0.3s;
     object-fit: cover;
 }
 .about {
-  width:50%;
-  min-width: 400px;
+  line-height: 1.7rem;
 }
 
 .about-content {
@@ -448,6 +449,19 @@ color: #DE2427;
 font-size: 1.5rem;
 }
 
+.porthome-blurb {
+  font-family: Lora;
+  max-width: 850px;
+  margin: 0px auto;
+  min-height: 200px;
+  padding-top:100px;
+  padding-bottom: 100px;
+  font-weight: 700;
+color: #DE2427;
+font-size: 1.5rem;
+}
+
+
 
 .spark-imgs {
 
@@ -463,13 +477,20 @@ justify-content: center;
 }
 .j5 {
   padding: 3rem 0rem;
+
 }
 
 .head-3 {
-  padding-bottom: .5rem;
+  //padding-bottom: .5rem;
   margin-bottom: 3rem;
+  // border-bottom: black 3px;
+  // border-style: solid;
+}
+.head-3 > h3 {
   border-bottom: black 3px;
-  border-style: solid;
+border-bottom-style: none;
+border-style: solid;
+padding-bottom: .8rem;
 }
 .summary {
   background-color: #F9EFEB;
@@ -486,7 +507,7 @@ padding: 5%;
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 60px; /* Place the button at the bottom of the page */
+  bottom: 180px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
@@ -507,4 +528,42 @@ width: 50px;
 }
 #myBtn img {
   vertical-align: text-top;
+}
+.white {
+  background-color:#ffffff;
+}
+
+.milk > .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.j5 > .row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.process-row > h4 {
+  margin-bottom:.8rem;
+}
+.norpad {
+  padding-right:0px;
+}
+.nolpad {
+  padding-left:0px;
+}
+// .j5 h4 {
+//   padding-bottom: 10px;
+// }
+.center-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#id-section {
+  margin-top:100px;
+}
+.about-title {
+  font-family: Lora;
+  color: $mDbrick;
 }

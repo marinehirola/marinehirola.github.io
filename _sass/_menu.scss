@@ -115,7 +115,7 @@
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 15px 0;
   font-family: 'Source Sans Pro';
   font-weight: 700;
   font-size: 22px;
@@ -133,7 +133,7 @@
 }
 #menu .menu-navlg li {
   font-size: 3rem;
-  line-height: 1.8rem;
+  line-height: 2.3rem;
   font-family: 'Josefin Sans';
   font-weight: 700;
 }
@@ -141,9 +141,10 @@
   margin-top: 8%;
 }
 .follow svg{
-  height:53px;
-  width: 1.3rem;
+  // height:30px;
+  // width: 30px;
   path {
+    fill:#232323;
     transition: fill 0.3s ease;
   }
 }
@@ -151,5 +152,33 @@
 .follow svg:hover{
   path {
     fill:white;
+  }
+}
+.follow-icon svg {
+  height:30px;
+  width:30px;
+  margin-right:20px;
+}
+.follow {
+  display:flex;
+}
+
+#menu-img {
+  padding:40px;
+  max-width: 250px;
+}
+
+.follow-abt svg{
+  // height:30px;
+  // width: 30px;
+  path {
+    fill:$mOrange;
+    transition: fill 0.3s ease;
+  }
+}
+
+.follow-abt svg:hover{
+  path {
+    fill:$mDbrick;
   }
 }

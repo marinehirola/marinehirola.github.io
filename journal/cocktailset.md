@@ -9,7 +9,7 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
     {{page.page-title}}
   </div>
   <div class="project-tags sm-space">
-    {{page.tags}}
+    <h2>{{page.tags}}</h2>
   </div>
   <!-- <div class ="main-content space">
     <img src="/assets/images/Rectangle 230.png">
@@ -17,7 +17,7 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
   <p class="blog-feature blog-padding">While socially distancing in 2020, I dreamed of when we could once again gather and share good drinks with friends. With this aspiration in mind, I decided to create a cocktail set in preparation for that day. This is how that project is going…</p>
   <div class="row space align-items-center">
     <div class ="half-content col-sm-6">
-      <p>The first piece I wanted to tackle was a jigger because I knew it would create all sorts of interesting personal challenges. I had never tried making a plaster mold with more than three parts and knew that a jigger would necessitate at least that, probably more. Jiggers are meant to measure ingredients so the finished object needed to be more precise than I normally work in clay. Additionally, porcelain as a material has a high shrink rate and can have a tendency to warp which would affect the aforementioned accuracy and volume. I sketched a few minimal designs and settled on a pretty classic form to experiment upon.
+      <p>The first piece I wanted to tackle was a jigger because I knew it would create all sorts of interesting technical challenges. I had never tried making a plaster mold with more than three parts and knew that a jigger would necessitate at least that, probably more. Jiggers are meant to measure ingredients so the finished object needed to be more precise than I normally work in clay. Additionally, porcelain as a material has a high shrink rate and can have a tendency to warp which would also affect the accuracy and volume. I sketched a few minimal designs and settled on a pretty classic form to experiment with.
       I modeled the positive in Fusion 360 and 3D print it so that I would start with precise dimensions so that, fingers crossed, me back of the napkin geometry calculation would give me a 1 ounce side and a 2 ounce side. I then painted the model with high-build primer and sanded a few times to fill the build lines in the model.</p>
     </div>
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail1">
@@ -83,12 +83,12 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
       </div>
     </div>
     <div class ="half-content col-sm-6">
-      <p>But… I couldn’t. Time after time I  pulled pieces that looked solid and nice, but after slicing them in half I would find bubbles in the clay body. Bubbles aren’t great in clay because the trapped air expands as the kiln heats and causes blow outs.  The problem seems to be that while the wall thicknesses are all equal, the point where the three walls meets makes that area thicker. The mold pulls enough moisture that it closes off the middle section from pulling more slip.</p>
+      <p>But… I couldn’t. Time after time I  pulled pieces that looked solid and nice, but after slicing them in half I would find bubbles in the clay body. Bubbles aren’t great in clay because the trapped air expands as the kiln heats and causes blow outs.  The problem seems to be that while the wall thicknesses are all equal, the vertex where the three walls meets is actually thicker. The mold pulls enough moisture that it closes off the middle section from pulling more slip.</p>
     </div>
   </div>
   <div class="row space align-items-center">
     <div class ="half-content col-sm-6">
-      <p>At this point I decided that it would be worth trying to modify this mold to work as a kind of hybrid mold, casting the bottom as solid, but leaving the top open. It might take attentive mold watching to get the top cup wall thickness to match the solid cast bottom, but I would only need to pour one new piece.This change was more successful than expected and after a few timing experiments ~50 minutes seems to get even results. This is where the jigger is at, off getting cooked. </p>
+      <p>At this point I decided that it would be worth trying to modify this mold to work as a kind of hybrid mold, casting the bottom as solid, but leaving the top open. It might take attentive mold watching to get the top cup wall thickness to match the solid cast bottom, but I would only need to pour one new piece.This change was more successful than expected and after a few timing experiments, I found that ~50 minutes seems to get even results. This is where the jigger is at, off getting cooked. </p>
     </div>
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail2">
       <img src="/assets/images/cocktail/jiggerillustration2.png">

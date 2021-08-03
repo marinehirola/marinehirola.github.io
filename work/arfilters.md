@@ -11,7 +11,7 @@ image: "../assets/images/arfilter.png"
     {{page.page-title}}
   </div>
   <div class="project-type sm-space">
-    {{page.tags}}
+  <h2>  {{page.tags}} </h2>
   </div>
   <div class="body-type project-pad space"></div>
   <div class="spark-block">

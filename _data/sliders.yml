@@ -1,0 +1,43 @@
+# example slider
+- selector: example_slider
+  captions: true
+  images:
+    - src: /img/1.jpg
+      alt: image one
+    - src: /img/2.jpg
+      alt: image two
+    - src: /img/3.jpg
+      alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: slider3
+  images:
+    - src: /assets/images/togogames/brand21-01.png
+      alt: image one
+    - src: /assets/images/togogames/brand21-02.png
+      alt: image two
+    - src: /assets/images/togogames/brand21-05.png
+      alt: image three
+    - src: /assets/images/togogames/brand21-08.png
+      alt: image four
+  settings:
+    height: "'auto'"
+    disableNav: true
+
+- selector: sliderSP
+  images:
+    - src: /assets/images/sigpick/spSlide-1.png
+      alt: image one
+    - src: /assets/images/sigpick/spSlide-2.png
+      alt: image two
+    - src: /assets/images/sigpick/spSlide-3.png
+      alt: image three
+    - src: /assets/images/sigpick/spSlide-4.png
+      alt: image four
+    - src: /assets/images/sigpick/spSlide-5.png
+      alt: image five
+  settings:
+    height: "'auto'"
+    disableNav: false
