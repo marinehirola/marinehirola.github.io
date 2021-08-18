@@ -309,6 +309,15 @@ margin-bottom: 10px;
 .project-pad {
   padding: 0px 10px;
 }
+@media screen and (orientation:landscape) {
+   #menu{
+     padding-top:20px;
+   }
+   #menu-img {
+     padding:0px;
+     padding-left: 10px;
+   }
+}
 
 @media (min-width:900px){
   .home-col {
