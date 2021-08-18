@@ -163,7 +163,8 @@ ul.posts li {
   letter-spacing: .1em;
 }
 .project-title {
-  font-size: 3.5em;
+  font-size: 2.6em;
+  line-height: 1.2em;
   font-family: Josefin Sans;
   text-transform: none;
 
@@ -178,15 +179,15 @@ transition: 0.3s;
   color: #AE5447;}
 
 .home-col {
-  flex: 0 0 auto;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x));
-  padding-left: calc(var(--bs-gutter-x));
+  // flex: 0 0 auto;
+  // width: 100%;
+  // padding-right: calc(var(--bs-gutter-x));
+  // padding-left: calc(var(--bs-gutter-x));
   padding-bottom: 3rem;
 }
 .home-small-items {
-  margin-left:10px;
-  margin-right:10px;
+  // margin-left:10px;
+  // margin-right:10px;
 
 }
 .fill {
@@ -286,13 +287,12 @@ transition: 0.3s;
   margin-bottom:60px;
 }
 .home-img {
-
+margin-bottom: 10px;
 }
 
 .homecard {
   background-color: transparent;
   border:none;
-  min-height:350px;
   max-width: 480px;
   margin: 0px auto;
 }
@@ -313,9 +313,14 @@ transition: 0.3s;
 @media (min-width:900px){
   .home-col {
     width:50%;
-    padding-bottom: 0px;
+    // padding-bottom: 0px;
   }
-
+  .project-title {
+    font-size:3.5em;
+  }
+  .home-blurb {
+    font-size: 1.5rem;
+  }
   #sigpick-home img {
     object-position: 0px;
   }
@@ -446,7 +451,7 @@ transition: 0.3s;
   padding-bottom: 100px;
   font-weight: 700;
 color: #DE2427;
-font-size: 1.5rem;
+font-size: 1.2rem;
 }
 
 .porthome-blurb {
