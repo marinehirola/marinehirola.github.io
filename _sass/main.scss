@@ -311,14 +311,24 @@ margin-bottom: 10px;
 }
 @media screen and (orientation:landscape) {
    #menu{
-     padding-top:20px;
+     padding-top:10%;
    }
    #menu-img {
      padding:0px;
      padding-left: 10px;
    }
+   #menu .menu-navlg li {
+     line-height: 1.5rem;
+   }
 }
-
+@media screen and (orientation:landscape) and (max-width:600px){
+  .menu-navlg {
+    max-width: 30%;
+  }
+  #menu{
+    padding-top:5%;
+  }
+}
 @media (min-width:900px){
   .home-col {
     width:50%;
