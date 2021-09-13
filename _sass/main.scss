@@ -3,27 +3,31 @@
 @import "menu";
 @import "footer";
 @import "journal";
+@import "follow";
 
 $backgroundColor: #FEFCF9;
-$bodyColor: #2d3338;
-$bodySize: .9em;
-$bodyFont: "Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyColor: #16202A;
+
+$bodyFont: 'Lato',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $mOrange: #FD451D;
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  font-size:$bodySize;
   display: flex;
   flex-direction: column;
 
 }
 html, body {
   height: 100%;
+  font-size: 16px;
 }
 p {
-  line-height: 2em;
-  font-family: 'Space Grotesk', 'Open Sans';
+  font-size: .95rem;
+  line-height: 1.5rem;
+  font-family: $bodyFont, 'Open Sans';
+  font-weight: 300;
+  letter-spacing: .05rem;
 }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, a
 {
@@ -276,9 +280,6 @@ transition: 0.3s;
     min-height: 100%;
     object-fit: cover;
 }
-.about {
-  line-height: 1.7rem;
-}
 
 .about-content {
   margin-top:5em;
@@ -411,9 +412,10 @@ margin-bottom: 10px;
 //   .teaser-tile-project__inner:focus .teaser-tile-project__client-name:before {
 //     width: 300px;
 //     transition: all 0.5s cubic-bezier(0.555, 0.205, 0.295, 0.975) 0.02s; }
+
+//remove link underlines
 .teaser-tile-inner {
       text-decoration: none;
-
 }
 .teaser-tile-inner .project-tags {
         text-transform: uppercase;
@@ -586,8 +588,4 @@ width: 50px;
 }
 #id-section {
   margin-top:100px;
-}
-.about-title {
-  font-family: Lora;
-  color: $mDbrick;
 }

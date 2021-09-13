@@ -1,4 +1,4 @@
-<body style="background-color: #FBF3F0"><div class="row"><div class="col-md-1"></div>
+I"	<body style="background-color: #FBF3F0"><div class="row"><div class="col-md-1"></div>
 <div class="col-md-6">
 <h1 class="about-title sm-space"><i>Hey! I’m Mariko,</i></h1>
 <p class="about about-special sm-space">As a product designer with a background in industrial design, web design, and contemporary craft, I have a unique interdisciplinary understanding of user experience with physical and digital products. I am passionate about creating beautiful, intuitive, and interesting experiences in almost any medium.</p>
@@ -8,7 +8,7 @@
 <p class="about sm-space">I find inspiration in nature, science, food, and travel. In my off time I like to slip cast my own dishes, learn a new skill (currently teaching myself some JavaScript and basketweaving), and go on urban hikes.</p>
 
 <p class="about sm-space">I graduated from CCA in 2012, earning a B.F.A. in Industrial Design with minor in Visual Studies. I'm currently based in my beautiful hometown, Seattle, Washington and looking for freelance opportunities and creative collaborations, so reach out and let's connect!</p>
-<br>
+<br />
 <li class="follow follow-abt">
   <a class="follow-icon" href="https://www.instagram.com/marikohirasawa">
     <div class="follow-name">
@@ -37,3 +37,11 @@
 <div class="col-md-1"></div>
 </div>
 </body>
+
+<!-- /.blurb -->
+
+<script>
+
+</script>
+
+:ET

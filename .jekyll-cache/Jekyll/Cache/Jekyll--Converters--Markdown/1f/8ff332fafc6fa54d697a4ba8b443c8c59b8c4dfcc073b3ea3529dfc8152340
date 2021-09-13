@@ -1,14 +1,14 @@
-<body style="background-color: #FBF3F0"><div class="row"><div class="col-md-1"></div>
-<div class="col-md-6">
+I"ô<body style="background-color: #FBF3F0"><div class="row"><div class="col-md-1"></div>
+<div class="col-md-5">
 <h1 class="about-title sm-space"><i>Hey! Iâ€™m Mariko,</i></h1>
-<p class="about about-special sm-space">As a product designer with a background in industrial design, web design, and contemporary craft, I have a unique interdisciplinary understanding of user experience with physical and digital products. I am passionate about creating beautiful, intuitive, and interesting experiences in almost any medium.</p>
+<p class="about sm-space">As a product designer with a background in industrial design, web design, and contemporary craft, I have a unique interdisciplinary understanding of user experience with physical and digital products. I am passionate about creating beautiful, intuitive, and interesting experiences in almost any medium.</p>
 
 <p class="about sm-space">Most recently I've been a visual designer for a non-profit focused on reducing the spread of Covid-19. Previously, I worked as sole UX designer for a luxury handcrafted furniture studio. Before that, I helped the US team of ASKXXI put on an art + science exhibition in Chile. I'm strong believer in cross-disciplinary collaboration and human-centered design and their power to create meaningful and empathetic solutions for the world's biggest problems.</p>
 
-<p class="about sm-space">I find inspiration in nature, science, food, and travel. In my off time I like to slip cast my own dishes, learn a new skill (currently teaching myself some JavaScript and basketweaving), and go on urban hikes.</p>
+<p class="about sm-space">I find inspiration in science, nature, food, history and travel. In my off time I like to slip cast my own dishes, learn a new skill (currently teaching myself some JavaScript), boulder, and go on urban hikes.</p>
 
 <p class="about sm-space">I graduated from CCA in 2012, earning a B.F.A. in Industrial Design with minor in Visual Studies. I'm currently based in my beautiful hometown, Seattle, Washington and looking for freelance opportunities and creative collaborations, so reach out and let's connect!</p>
-<br>
+<br />
 <li class="follow follow-abt">
   <a class="follow-icon" href="https://www.instagram.com/marikohirasawa">
     <div class="follow-name">
@@ -33,7 +33,15 @@
 </a></li>
 </div>
 
-<div class="col-md-4"></div>
+<div class="col-md-5"></div>
 <div class="col-md-1"></div>
 </div>
 </body>
+
+<!-- /.blurb -->
+
+<script>
+
+</script>
+
+:ET

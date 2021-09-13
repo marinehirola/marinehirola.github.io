@@ -136,20 +136,20 @@
   max-width: 250px;
 }
 
-.follow-abt svg{
-  // height:30px;
-  // width: 30px;
-  path {
-    fill:$mOrange;
-    transition: fill 0.3s ease;
-  }
-}
-
-.follow-abt svg:hover{
-  path {
-    fill:$mDbrick;
-  }
-}
+// .follow-abt svg{
+//   // height:30px;
+//   // width: 30px;
+//   path {
+//     fill:$mOrange;
+//     transition: fill 0.3s ease;
+//   }
+// }
+//
+// .follow-abt svg:hover{
+//   path {
+//     fill:$mDbrick;
+//   }
+// }
 @media (min-width:480px){
 #menu {
   padding-top: 125px;

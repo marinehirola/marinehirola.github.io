@@ -19,12 +19,17 @@
 
 }
 
-.about-header {
-  font-family: Josefin Sans;
-  font-weight: 500;
-  font-size: 2.5em;
-  position: relative;
-  letter-spacing: .1em;
+.about-title {
+  font-family: Lora;
+  text-transform: lowercase;
+  font-weight: 400;
+  margin-top:3rem;
+
+}
+.about-special {
+  font-size: 1.3rem;
+line-height: 2rem;
+font-family: 'Lora';
 }
 
 .scss-test {
@@ -35,7 +40,7 @@
 
 .body-type {
   line-height: 2em;
-  font-family: 'Space Grotesk', 'Open Sans';
+  font-family: 'Lato', 'Open Sans';
   font-weight:300;
 }
 
