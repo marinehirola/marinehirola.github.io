@@ -4,7 +4,6 @@
 @import "footer";
 @import "journal";
 @import "follow";
-@import "gsap";
 
 $backgroundColor: #FEFCF9;
 $bodyColor: #16202A;
@@ -24,7 +23,7 @@ html, body {
   font-size: 16px;
 }
 p {
-  font-size: 1rem;
+  font-size: .95rem;
   line-height: 1.5rem;
   font-family: $bodyFont, 'Open Sans';
   font-weight: 400;
@@ -194,7 +193,11 @@ transition: 0.3s;
   // padding-left: calc(var(--bs-gutter-x));
   padding-bottom: 3rem;
 }
+.home-small-items {
+  // margin-left:10px;
+  // margin-right:10px;
 
+}
 .fill {
     display: flex;
     justify-content: center;
@@ -272,7 +275,6 @@ transition: 0.3s;
 }
 
 
-
 .cardfill {
     display: flex;
     justify-content: center;
@@ -342,9 +344,9 @@ margin-bottom: 10px;
   .project-title {
     font-size:3.5em;
   }
-  // .home-blurb {
-  //   font-size: 1.5rem;
-  // }
+  .home-blurb {
+    font-size: 1.5rem;
+  }
   #sigpick-home img {
     object-position: 0px;
   }
@@ -468,16 +470,15 @@ margin-bottom: 10px;
   height: auto;
 }
 .home-blurb {
-  font-family: 'Josefin Sans';
-  color:#515151;
-  font-size: 1.5rem;
+  font-family: Lora;
+  max-width: 500px;
   margin: 0px auto;
   min-height: 200px;
-  padding-top:160px;
+  padding-top:50px;
   padding-bottom: 50px;
-
-
-
+  font-weight: 700;
+color: #DE2427;
+font-size: 1.2rem;
 }
 
 .porthome-blurb {
@@ -593,11 +594,4 @@ width: 50px;
 }
 #id-section {
   margin-top:100px;
-}
-.big-text {
-  font-family: 'Josefin Sans';
-  font-size: 1.6rem;
-  line-height:2.4rem;
-  font-weight:300;
-  margin-right:2rem;
 }
