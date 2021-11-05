@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 	{% include head.html %}
-	<body>
+	<body style="background-image: linear-gradient(rgba(207,196,194,1),rgba(207,196,194,1),rgba(255,0,0,0)); background-repeat:no-repeat;";>
 		<div class="content">
 			<div class="page-width row">
 				{% include header.html %}
 			</div>
-			<div class="page-width row">
+			<div id="home-hero" class="page-width row">
 				{% include section/home-hero.html %}
 			</div>
 			<div class="page-width">
@@ -22,14 +22,12 @@
 			</div>
 			{{ content }}
 		</div>
-<!-- /.container -->
 
-			{% include footer.html %}
-
-
-
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      {% include scripts.html %}
+		{% include footer.html %}
+		
+		<!-- /.container -->
+    	<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	{% include scripts.html %}
 	</body>
 </html>
