@@ -308,6 +308,16 @@ margin-bottom: 10px;
   min-height: 400px;
   padding-bottom: 50px;
 }
+@keyframes loadSun {
+  0% {
+    opacity:0;
+   
+  }
+  100% {
+    opacity:0.3;
+  }
+}
+
 #home-hero::before {
   content: "";
   position: absolute;
@@ -322,6 +332,17 @@ margin-bottom: 10px;
   left: 0px;
   opacity: .3;
   z-index: -1;
+  animation: 3s ease-out 0s 1 loadSun;
+}
+@keyframes loadText {
+  0% {
+    transform: translateY(10%);
+    color: #FC363C;
+  }
+  100% {
+    transform: translateY(0);
+    color: #E82E34;
+  }
 }
 
 .home-blurb {
@@ -330,8 +351,10 @@ margin-bottom: 10px;
   margin-top:auto;
   margin-bottom: auto;
   font-weight: 500;
-  color: #FC363C;
+  color: #E82E34;
   font-size: 1.5rem;
+  animation: 1s ease-out 0s 1 loadText;
+  
   
 }
 
