@@ -326,6 +326,7 @@ margin-bottom: 10px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
+  max-height: 500px;
   top: 50px;
   right: 0px;
   bottom: 0px;
@@ -394,8 +395,8 @@ margin-bottom: 10px;
     
   }
   #home-hero::before {
-    top:0px;
-    background-position-x: 0px;
+    top:30px;
+    background-position-x: 10%;
   }
   }
 @media (min-width:1000px){
