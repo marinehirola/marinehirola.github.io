@@ -186,14 +186,6 @@ transition: 0.3s;
 .project-title a:hover {
   color: #AE5447;}
 
-.home-col {
-  // flex: 0 0 auto;
-  // width: 100%;
-  // padding-right: calc(var(--bs-gutter-x));
-  // padding-left: calc(var(--bs-gutter-x));
-  padding-bottom: 3rem;
-}
-
 .fill {
     display: flex;
     justify-content: center;
@@ -310,6 +302,39 @@ margin-bottom: 10px;
 .project-pad {
   padding: 0px 10px;
 }
+
+#home-hero {
+  height:65vh;
+  min-height: 400px;
+  padding-bottom: 50px;
+}
+#home-hero::before {
+  content: "";
+  position: absolute;
+  // transform: rotate(180deg);
+  background-image: url('/assets/images/sunny.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  top: 50px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .3;
+  z-index: -1;
+}
+
+.home-blurb {
+  font-family: 'Josefin Sans';
+  max-width: 500px;
+  margin-top:auto;
+  margin-bottom: auto;
+  font-weight: 500;
+  color: #FC363C;
+  font-size: 1.5rem;
+  
+}
+
 @media screen and (orientation:landscape) {
    #menu{
      padding-top:10%;
@@ -334,9 +359,7 @@ margin-bottom: 10px;
   .project-title {
     font-size:3.5em;
   }
-  .home-blurb {
-    font-size: 1.5rem;
-  }
+  
   #sigpick-home img {
     object-position: 0px;
   }
@@ -345,8 +368,12 @@ margin-bottom: 10px;
     max-width:1000px;
     margin:0px auto;
     padding:0px auto;
+    
   }
-
+  #home-hero::before {
+    top:0px;
+    background-position-x: 0px;
+  }
   }
 @media (min-width:1000px){
 
@@ -455,16 +482,7 @@ margin-bottom: 10px;
 .blog-body {
   height: auto;
 }
-.home-blurb {
-  font-family: Lora;
-  max-width: 500px;
-  min-height: 200px;
-  padding-top:50px;
-  padding-bottom: 50px;
-  font-weight: 700;
-color: #DE2427;
-font-size: 1.2rem;
-}
+
 
 .porthome-blurb {
   font-family: Lora;
