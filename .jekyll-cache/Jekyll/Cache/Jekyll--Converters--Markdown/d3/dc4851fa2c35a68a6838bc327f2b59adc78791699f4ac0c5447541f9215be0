@@ -1,0 +1,27 @@
+I"•<div class="page-width row">
+    <div class="col-sm-6">
+        <div class="project-title sm-space">
+            Greetings!
+        </div> 
+        <div class="md-space">
+            Welcome KSMMers, my name is Mariko and I'm a designer/maker in Seattle. Thank you for dropping by for a little more information about my ornaments and myself. Happy Holidays!
+        </div>
+        <h2 class="sm-space"> About the ornaments</h2>
+        <div class="md-space"> These ornaments are unglazed porcelain, sanded to a lovely soft surface. All the ornament caps that I found available for purchase were unsatisfying, so I decided to make my own with by ordering laser cut brass that I bend to fit each piece. </div>
+        <h2 class="sm-space">About me</h2>
+        <div class="md-space">I'm a designer who loves to make. I studied industrial design because I adore making functional pieces that I get to use everyday. In my quest to learn how to make everything, I've worked as a jeweler, web designer, photographer, metal finisher, handyman, ceramicist, and more. </div>
+         <div class="md-space">If you're interested in updates about my work, follow me on instagram @marikohirasawa, or if you want to chat about clay or design or anything send me an email.</div>
+    </div>
+    <div class="col-sm-6 half-content">
+        <img src="/assets/images/ksmm/baubles1.png" />
+    </div>
+
+</div>
+
+<!-- /.blurb -->
+
+<script>
+
+</script>
+
+:ET

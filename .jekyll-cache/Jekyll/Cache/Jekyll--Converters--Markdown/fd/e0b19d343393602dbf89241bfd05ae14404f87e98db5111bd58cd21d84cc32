@@ -1,8 +1,4 @@
----
-layout: default
-title: mariko - about
----
-
+I"„
 <body style="background-color: #FBF3F0">
     <div class="page-width row">
         <div class="col-md-6">
@@ -11,7 +7,7 @@ title: mariko - about
             <p class="about sm-space">Most recently I've been a visual designer for a non-profit focused on reducing the spread of Covid-19. Previously, I worked as sole UX designer for a luxury handcrafted furniture studio. Before that, I helped the US team of ASKXXI put on an art + science exhibition in Chile. I'm strong believer in cross-disciplinary collaboration and human-centered design and their power to create meaningful and empathetic solutions for the world's biggest problems.</p>
             <p class="about sm-space">I find inspiration in nature, science, food, and travel. In my off time I like to learn a new skill (currently teaching myself some JavaScript and basketweaving), and go on urban hikes.</p>    
             <p class="about sm-space">I graduated from CCA in 2012, earning a B.F.A. in Industrial Design with minor in Visual Studies. I'm currently based in my beautiful hometown, Seattle, Washington and looking for freelance opportunities and creative collaborations, so reach out and let's connect!</p>
-            <br>
+            <br />
             <li class="follow follow-abt">
                 <a class="follow-icon" href="https://www.instagram.com/marikohirasawa">
                     <div class="follow-name">
@@ -44,3 +40,5 @@ title: mariko - about
 <script>
 
 </script>
+
+:ET
