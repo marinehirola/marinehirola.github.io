@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+	{% include head.html %}
+	<body>
+		<div class="content">
+			<div class="page-width row">
+				{% include header.html %}
+			</div>
+			
+			{% include section/tiger/tiger-hero.html %}
+			{% include section/tiger/tiger-work.html %}
+			{% include section/tiger/tiger-other.html %}
+			{% include section/tiger/tiger-about.html %}
+	
+			{{ content }}
+		</div>
+
+		{% include footer.html %}
+		
+		<!-- /.container -->
+    	<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	{% include scripts.html %}
+	</body>
+</html>
