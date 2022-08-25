@@ -6,15 +6,17 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
 ---
 <div class="wrapper">
   <div class="project-title">
-    {{page.page-title}}
+    <h2>{{page.page-title}}</h2>
   </div>
   <div class="project-tags sm-space">
-    <h2>{{page.tags}}</h2>
+    <h4>{{page.tags}}</h4>
   </div>
   <!-- <div class ="main-content space">
     <img src="/assets/images/Rectangle 230.png">
   </div> -->
-  <p class="blog-feature blog-padding">While socially distancing in 2020, I dreamed of when we could once again gather and share good drinks with friends. With this aspiration in mind, I decided to create a cocktail set in preparation for that day. This is how that project is going…</p>
+  <div class="blog-feature">
+    <h5>While socially distancing in 2020, I dreamed of when we could once again gather and share good drinks with friends. With this aspiration in mind, I decided to create a cocktail set in preparation for that day…</h5>
+  </div>
   <div class="row space align-items-center">
     <div class ="half-content col-sm-6">
       <p>The first piece I wanted to tackle was a jigger because I knew it would create all sorts of interesting technical challenges. I had never tried making a plaster mold with more than three parts and knew that a jigger would necessitate at least that, probably more. Jiggers are meant to measure ingredients so the finished object needed to be more precise than I normally work in clay. Additionally, porcelain as a material has a high shrink rate and can have a tendency to warp which would also affect the accuracy and volume. I sketched a few minimal designs and settled on a pretty classic form to experiment with.
@@ -23,16 +25,16 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail1">
       <iframe src="https://player.vimeo.com/video/568677635?autoplay=1&loop=1&autopause=0&muted=1" width="320" height="377" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       <div class="blog-caption">
-        <span class="project-tags child">FUSION</span>
-        <span class="sake-txt">What the final piece will hopefully look like floating around in space. </span>
+        <span class="bold">FUSION</span>
+        <span>What the final piece will hopefully look like floating around in space. </span>
       </div>
     </div>
   </div>
   <div class="row space align-items-center flex-wrap-reverse">
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail2">
-      <img src="/assets/images/cocktail/cocktail2.png">
+      <img src="/assets/images/journal/cocktail/cocktail2.png">
       <div class="blog-caption">
-        <span class="project-tags child">MOLD ONE </span>
+        <span class="bold">MOLD ONE </span>
         <span class="sake-txt">The consequences of my actions. A really underwhelming mold.</span>
       </div>
     </div>
@@ -47,28 +49,28 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
       <p>I was really hopeful about this version of the mold. The first pieces I pulled from the mold had odd tearing issues and appeared to be creating a double wall situation unintentionally, but I wrote this off to the mold seasoning and the problems lessened. I was pulling very reasonable looking casts and only some small pinholes that I thought could be worked out through better pouring and agitation.</p>
     </div>
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail2">
-      <img src="/assets/images/cocktail/jiggerillustration1.png">
+      <img src="/assets/images/journal/cocktail/jiggerillustration1.png">
     </div>
   </div>
   <div class="row space">
     <div class ="half-content col-sm-4">
-      <img src="/assets/images/cocktail/cocktailProblem1@2x.png">
+      <img src="/assets/images/journal/cocktail/cocktailProblem1@2x.png">
         <div class="blog-caption">
-          <span class="project-tags">DOUBLE TROUBLE</span>
+          <span class="bold">DOUBLE TROUBLE</span>
           <span class="sake-txt">Early casts of the new jigger mold had pretty extreme double walling. Often times the first pulls of a mold are rough and you may need to cast many times before the mold works reliably. </span>
         </div>
     </div>
     <div class ="half-content col-sm-4">
-      <img src="/assets/images/cocktail/cocktailProblem2@2x.png">
+      <img src="/assets/images/journal/cocktail/cocktailProblem2@2x.png">
       <div class="blog-caption">
-        <span class="project-tags">IMPROVEMENT</span>
+        <span class="bold">IMPROVEMENT</span>
         <span class="sake-txt">This mold showed significant improvement. These holes were the only visible flaws and I thought since they were at the top of the mold, better agitating the mold and pouring at an angle would eliminate the problems. </span>
       </div>
     </div>
     <div class ="half-content col-sm-4">
-      <img src="/assets/images/cocktail/cocktailProblem3@2x.png">
+      <img src="/assets/images/journal/cocktail/cocktailProblem3@2x.png">
       <div class="blog-caption">
-        <span class="project-tags">TIMING</span>
+        <span class="bold">TIMING</span>
         <span class="sake-txt">I Had to experiment with the casting time that would balance when the cast was dry enough to remove without deformation, but too dry and there could be cracks where the piece shrunk around the plaster. </span>
       </div>
     </div>
@@ -76,9 +78,9 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
 
   <div class="row space align-items-center flex-wrap-reverse">
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail1">
-      <img src="/assets/images/cocktail/cocktailpop.png">
+      <img src="/assets/images/journal/cocktail/cocktailpop.png">
       <div class="blog-caption">
-        <span class="project-tags child">BLOW OUT </span>
+        <span class="bold">BLOW OUT </span>
         <span class="sake-txt">Although this casting looked solid, a large chunk of the side popped off after the bisque firing.</span>
       </div>
     </div>
@@ -91,22 +93,22 @@ tags: CERAMICS DESIGN / MOLD MAKING / WORK IN PROGRESS
       <p>At this point I decided that it would be worth trying to modify this mold to work as a kind of hybrid mold, casting the bottom as solid, but leaving the top open. It might take attentive mold watching to get the top cup wall thickness to match the solid cast bottom, but I would only need to pour one new piece.This change was more successful than expected and after a few timing experiments, I found that ~50 minutes seems to get even results. This is where the jigger is at, off getting cooked. </p>
     </div>
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail2">
-      <img src="/assets/images/cocktail/jiggerillustration2.png">
+      <img src="/assets/images/journal/cocktail/jiggerillustration2.png">
     </div>
   </div>
   <div class="row space align-items-center">
     <div class ="half-content col-sm-6 blog-img-block" id="cocktail1">
-      <img src="/assets/images/cocktail/cocktailbisque.png">
+      <img src="/assets/images/journal/cocktail/cocktailbisque.png">
       <div class="blog-caption">
-        <span class="project-tags child">Fingers Crossed.</span>
+        <span class="bold">Fingers Crossed.</span>
         <span class="sake-txt" style="font-size:24px">&#127808; &#127808; &#127808; </span>
       </div>  
     </div>
     <div class="half-content col-sm-6">
       <div class="blog-img-block" id="cocktail1">
-        <span class="project-tags">COMING SOON: The Mixing Cup…</span>
+        <span class="bold">COMING SOON: The Mixing Cup…</span>
         <br>
-        <img src="/assets/images/cocktail/mixerteaser.png">
+        <img src="/assets/images/journal/cocktail/mixerteaser.png">
       </div>
     </div>
   </div>

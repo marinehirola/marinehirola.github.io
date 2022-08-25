@@ -1,0 +1,82 @@
+I"&<div class="main-content">
+    <!-- Homepage Work content -->
+<section id="work-main" class="color" data-color="white">
+ 	<div class="page-width pb-3">
+		<div class="row space">
+			<div class="col-sm-6">
+				<div class="home-card card">
+					<a class="teaser-tile-inner" href="../work/20for20.html">
+  <div class="teaser-tile-name project-tags project-type label">
+    <span class="sr-only">Project Tags:</span>
+    Work in Progress
+  </div>
+  <div class="home-img cardfill">
+    <img src="/assets/images/project-20-card.png" alt="" />
+  </div>
+  <div class="project-title">
+    <h2>Project 20 for 20</h2>
+  </div>
+</a>
+
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="home-card card">
+					<a class="teaser-tile-inner" href="../work/sansake.html">
+  <div class="teaser-tile-name project-tags project-type label">
+    <span class="sr-only">Project Tags:</span>
+    Ceramics
+  </div>
+  <div class="home-img cardfill">
+    <img src="/assets/images/san-home@2x.png" alt="" />
+  </div>
+  <div class="project-title">
+    <h2>Slip Casting</h2>
+  </div>
+</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-sm-6">
+				<div class="home-card card">
+					<a class="teaser-tile-inner" href="../work/arfilters.html">
+  <div class="teaser-tile-name project-tags project-type label">
+    <span class="sr-only">Project Tags:</span>
+    Augmented Reality
+  </div>
+  <div class="home-img cardfill">
+    <img src="/assets/images/arfilter3.png" alt="" />
+  </div>
+  <div class="project-title">
+    <h2>Spark AR Filters</h2>
+  </div>
+</a>
+
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="home-card card">
+					<a class="teaser-tile-inner" href="../work/togogames.html">
+  <div class="teaser-tile-name project-tags project-type label">
+    <span class="sr-only">Project Tags:</span>
+    Industrial Design
+  </div>
+  <div class="home-img cardfill">
+    <img src="/assets/images/togohome.png" alt="" />
+  </div>
+  <div class="project-title">
+    <h2>To Go Games</h2>
+  </div>
+</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+<!-- /.blurb -->
+:ET

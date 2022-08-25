@@ -1,0 +1,29 @@
+.header {
+    margin: 1rem 0 3rem 0;
+}
+
+#logo { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.header-logo {
+    max-width: 9rem;
+    height:auto;
+}
+
+nav.menu {
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+        justify-content: center;
+        justify-items: center;
+
+        @media (min-width: 600px){
+            grid-gap: 30px;
+        }
+    }
+}

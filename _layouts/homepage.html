@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 	{% include head.html %}
-	<body style="background-image: linear-gradient(rgba(207,196,194,1),rgba(207,196,194,1),rgba(255,0,0,0)); background-repeat:no-repeat;";>
+	<body>
 		<div class="content">
 			<div class="page-width row">
 				{% include header.html %}
 			</div>
-			<div id="home-hero" class="page-width row">
-				{% include section/home-hero.html %}
-			</div>
-			<div class="page-width">
-				{% include section/home-work.html %}
-			</div>
-			<div class="fullwidth">
-				<div class="subheader pad">
-			    	journal
-				</div>
-			</div>
-			<div class="page-width">
-				{% include section/home-journal.html %}
-			</div>
+			
+			{% include section/home-hero.html %}
+			{% include section/home-work.html %}
+			{% include section/home-journal.html %}
+	
 			{{ content }}
 		</div>
 

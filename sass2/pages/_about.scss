@@ -1,0 +1,65 @@
+@use '../abstracts/' as *;
+
+.about-col-l {
+    padding-right: 2rem;
+}
+
+.about-title {
+    color:$popPurple;
+    padding: .5rem 0 2rem 0;
+}
+
+.about-col-r {
+    padding-left:2rem;
+}
+
+.about-h {
+    padding-bottom: 1rem;
+}
+
+.follow {
+    margin-bottom: 1.5rem;
+    h5 {
+        margin-bottom: .75rem;
+    }
+}
+
+.follow-name {
+    margin-right: 2rem;
+    color:rgb(22, 32, 42);
+    transition: all 0.5s cubic-bezier(0.555, 0.205, 0.295, 0.975);
+    position: relative;
+    width: min-content;
+}
+
+.follow-icon {
+    text-decoration: none;
+}
+
+.follow-name:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 20px;
+    width: 0;
+    background-color: #1638e2;
+    will-change: width;
+    transition: all 0.4s cubic-bezier(0.555, 0.205, 0.295, 0.975);
+    z-index: -1;}
+
+.follow-name:before {
+  background-color: #FBF3F0; } //line start color bg
+
+
+.follow-icon:hover .follow-name:before,
+.follow-icon:focus .follow-name:before {
+    width: 100%;
+    background-color: #FBA794; //line color light pink
+    transition: all 0.5s cubic-bezier(0.555, 0.205, 0.295, 0.975) 0.02s; }
+
+.follow-icon:hover .follow-name,
+.follow-icon:focus .follow-name {
+    color:$mDbrick;
+    transition: all 0.5s cubic-bezier(0.555, 0.205, 0.295, 0.975) 0.02s; }

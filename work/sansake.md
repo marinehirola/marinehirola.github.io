@@ -6,7 +6,71 @@ type: work
 tags: ceramics
 image: "../assets/images/sanbanner.png"
 ---
-{% include sansake.html %}
+<div class="page-width">
+  
+  
+  <div class="container">
+   <div class="row mb-2">
+   <div class="project-title pb-2">
+    <h2>{{page.page-title}}</h2>
+  </div>
+  <div class="project-type mb-4">
+   <h4> {{page.tags}} </h4>
+  </div>
+  </div>
+    <div class="row mb-4">
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake202@3x.png">
+        <div class="bold pb-1 pt-3">CREATING THE POSITIVE</div>
+        <p>For this slip cast project I started by pouring blanks which I carved while the plaster was still setting and then refined and sanded into a positive model of the sake cup.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake195@3x.png">
+        <div class="pb-1 pt-3"><h6>MAKING THE MOLD</h6></div>
+        <p>From the carved positive models, I then poured a negative plaster mold.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake192@3x.png">
+        <div class="pb-1 pt-3"><h6>VERSION ONE</h6></div>
+        <p>This first version of the sake cups were hand carved, but I found that the final product was more rustic than I orginally intended.</p>
+      </div>
+    </div>
+    <div class="row space">
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake193@3x.png">
+        <div class="pb-1 pt-3"><h6>3D PRINTED POSITITVE</h6></div>
+        <p>For version two I modeled and 3D printed the positive. I found I was able to achieve the handmade aesthetic I wanted just by the nature of casting and finishing by hand. After priming and sanding I made several molds from the print.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake196@3x.png">
+        <div class="pb-1 pt-3"><h6>MOLD TESTS</h6></div>
+        <p>Slip casting absorbs moisture from liquid clay poured into a plaster mold. A layer of clay builds and when the desired thickness is reached the excess clay is poured out and the piece is left to dry until it is ready to trim and remove.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake194@3x.png">
+        <div class="pb-1 pt-3"><h6>SAMPLE CUPS</h6></div>
+        <p>From the first version I learned that I wanted a thicker casting to give the cups a more substantial feeling. I did many mold tests to determing the ideal casting times.</p>
+      </div>
+    </div>
+    <div class="row space">
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/sanpack.png">
+        <div class="pb-1 pt-3"><h6>LASERCUT PACKAGING</h6></div>
+        <p>I designed lasercut packaging for individual cups that emphasize the trianglar form while protecting the pieces.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/SanSake200@3x.png">
+        <div class="pb-1 pt-3"><h6>VERSION TWO</h6></div>
+        <p>I decided to leave the outside of the cups unglazed since sanded porcelain is vitrified and has a lovely smooth texture. The bluer tones come from reduction firing while the warmer version is oxidation fired.</p>
+      </div>
+      <div class ="half-content col-sm-4">
+        <img src="/assets/images/sansake/san9.png">
+        <div class="pb-1 pt-3"><h6>KANPAI!</h6></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- /.blurb -->
 

@@ -5,11 +5,13 @@ page-title: Coffee Coffee Cup
 tags: EXPERIMENT / BIOPLASTICS
 ---
 <div class="wrapper">
-  <div class="project-title">
-    {{page.page-title}}
-  </div>
-  <div class="project-type sm-space">
-    {{page.tags}}
+  <div class="row mb-5">
+    <div class="project-title pb-2">
+      <h2>{{page.page-title}}</h2>
+    </div>
+    <div>
+      <h4>{{page.tags}}</h4>
+    </div>
   </div>
   <!-- <div class ="main-content space">
     <img src="/assets/images/Rectangle 230.png">
@@ -21,7 +23,7 @@ tags: EXPERIMENT / BIOPLASTICS
       </p>
     </div>
     <div class ="half-content col-sm-6 blog-img-block coffee-img" >
-      <img src="/assets/images/coffee/CoffeeShrink.png">
+      <img src="/assets/images/journal/coffee/CoffeeShrink.png">
       <div class="blog-caption">
         <span class="project-tags child">SHRINKAGE</span>
         <span class="sake-txt">The difference between a freshly demolded seed cup mold and the completely dried result.</span>
@@ -30,7 +32,7 @@ tags: EXPERIMENT / BIOPLASTICS
   </div>
   <div class="row space align-items-center flex-wrap-reverse">
     <div class ="half-content col-sm-6 blog-img-block coffee-img" >
-      <img src="/assets/images/coffee/CoffeeMold.png">
+      <img src="/assets/images/journal/coffee/CoffeeMold.png">
       <div class="blog-caption">
         <span class="project-tags child">MOLDY</span>
         <span class="sake-txt">What the prototypes looked like after a week as a seed cup. The shape was warped and the coffee developed a blue mold layer.</span>

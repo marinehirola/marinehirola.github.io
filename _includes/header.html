@@ -1,45 +1,14 @@
 <!-- Website Header and Menu -->
-  <div class="header d-flex justify-content-between align-items-center">
+  <div class="header">
     <div id="logo">
       <a href="/"><img class="header-logo" src="/assets/images/mh-logo.png" height="60px"></a>
     </div>
-    <div id="page-title">
-      {{page.type}}
-    </div>
-    <div id="menuToggle">
-      <!-- A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
-      <input type="checkbox" />
-      <!--hamburger spans-->
-      <span></span>
-      <span></span>
-
-      <ul id="menu">
-        <div class="container">
-          <div class="row justify-content-evenly align-items-end">
-            <div class="col-2"></div>
-            <div class="menu-navlg col-4">
-              <a href="/"><li>home</li></a>
-              <a href="/work/index.html"><li>work</li></a>
-              <a href="/journal/index.html"><li>journal</li></a>
-              <a href="/about.html"><li>about</li></a>
-              <li class="follow">
-                <div class="follow-icon">
-                  <a href="https://www.instagram.com/marikohirasawa">{% include ig-logo %}</a>
-                </div>
-                <div class="follow-icon">
-                  <a href="https://www.linkedin.com/in/mariko-hirasawa-5259a824">{% include li-logo %}</a>
-                </div>
-                <div class="follow-icon">
-                  <a href="mailto:iam@marikohirasawa.com?subject=feedback">{% include email1 %}</a>
-                </div>
-              </li>
-            </div>
-            <div id="menu-img" class="col-4 half-content">
-              <!-- <img src="/assets/images/cafe-2.png"> -->
-            </div>
-            <div class="col-2"></div>
-          </div>
-        </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../work/">Work</a></li>
+        <li><a href="../journal/">Journal</a></li>
+        <li><a href="../about.html">About</a></li>
       </ul>
-    </div>
+  </nav>
   </div>

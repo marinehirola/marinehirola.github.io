@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+#KSMMslider {
+    padding:50px;
+}
+
+.ksmma {
+    background-color: bisque;
+    text-decoration: none;
+    color: $mDbrick;
+}
+.ksmma:hover {
+    color:$mOrange;
+    transition: all 0.5s cubic-bezier(0.555, 0.205, 0.295, 0.975) 0.02s;
+}

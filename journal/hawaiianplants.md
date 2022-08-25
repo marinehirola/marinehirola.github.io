@@ -5,11 +5,11 @@ page-title: Puna Plants
 tags: ILLUSTRATION / BOTANY
 ---
 <div class="wrapper">
-  <div class="project-title">
-    {{page.page-title}}
+  <div class="project-title pb-2">
+    <h2>{{page.page-title}}</h2>
   </div>
   <div class="project-type sm-space">
-    {{page.tags}}
+    <h4>{{page.tags}}</h4>
   </div>
   <!-- <div class ="main-content space">
     <img src="/assets/images/Rectangle 230.png">

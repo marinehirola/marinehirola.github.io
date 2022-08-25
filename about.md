@@ -2,45 +2,61 @@
 layout: default
 title: mariko - about
 ---
-
-<body style="background-color: #FBF3F0">
+<body style="background-color: #F0EEE6">
     <div class="page-width row">
-        <div class="col-md-6">
-            <h1 id="about-title" class="sm-space"><i>Hey! I’m Mariko,</i></h1>
-            <p class="about sm-space">As a designer with a background in industrial design, web design, and contemporary craft, I have a unique interdisciplinary understanding of user experience with physical and digital products. I am passionate about creating beautiful, intuitive, and interesting experiences in almost any medium.</p>
-            <p class="about sm-space">Most recently I've been a visual designer for a non-profit focused on reducing the spread of Covid-19. Previously, I worked as sole UX designer for a luxury handcrafted furniture studio. Before that, I helped the US team of ASKXXI put on an art + science exhibition in Chile. I'm strong believer in cross-disciplinary collaboration and human-centered design and their power to create meaningful and empathetic solutions for the world's biggest problems.</p>
-            <p class="about sm-space">I find inspiration in nature, science, food, and travel. In my off time I like to learn a new skill (currently teaching myself some JavaScript and basketweaving), and go on urban hikes.</p>    
-            <p class="about sm-space">I graduated from CCA in 2012, earning a B.F.A. in Industrial Design with minor in Visual Studies. I'm currently based in my beautiful hometown, Seattle, Washington and looking for freelance opportunities and creative collaborations, so reach out and let's connect!</p>
+        <div class="col-md-7">
+            <div class="about-col-l">
+                <div class="about-title">
+                    <h3>Blending creativity and function</h3>
+                </div>
+                <div class="about-blurb">
+                    <div class="about-h">
+                        <h3>about me</h3>
+                    </div>
+                    <p>As a designer with a background in industrial design, web design, and contemporary craft, I have a unique interdisciplinary understanding of user experience with physical and digital products. I am passionate about creating beautiful, intuitive, and interesting experiences in almost any medium.</p>
+                    <br>
+                    <p>Most recently I've been a visual designer for a non-profit focused on reducing the spread of Covid-19. Previously, I worked as sole UX designer for a luxury handcrafted furniture studio. Before that, I helped the US team of ASKXXI put on an art + science exhibition in Chile. I'm strong believer in cross-disciplinary collaboration and human-centered design and their power to create meaningful and empathetic solutions for the world's biggest problems.</p>
+                    <br>
+                    <p>I find inspiration in nature, science, food, and travel. In my off time I like to learn a new skill (currently teaching myself some JavaScript and basketweaving), and go on urban hikes.</p>
+                    <br>
+                    <p>I graduated from CCA in 2012, earning a B.F.A. in Industrial Design with minor in Visual Studies. I'm currently based in my beautiful hometown, Seattle, Washington and looking for freelance opportunities and creative collaborations, so reach out and let's connect!</p>
+                </div>
+            </div>
             <br>
-            <li class="follow follow-abt">
-                <a class="follow-icon" href="https://www.instagram.com/marikohirasawa">
-                    <div class="follow-name">
-                        <span class="sr-only">IG:</span>
-                        Instagram
-                    </div>
-                </a>
-            </li>
-            <li class="follow follow-abt">
-                <a class="follow-icon" href="https://www.linkedin.com/in/mariko-hirasawa-5259a824">
-                    <div class="follow-name">
-                        <span class="sr-only">LinkedIn:</span>
-                        LinkedIn
-                    </div>
-                </a>
-            </li>
-            <li class="follow follow-abt">
-                <a class="follow-icon" href="mailto:iam@marikohirasawa.com?subject=hello">
-                    <div class="follow-name">
-                        <span class="sr-only">Email:</span>
-                        Email
-                    </div>
-                </a>
-            </li>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-5 half-content">
+            <div class="about-col-r">
+                    <img class="mb-4" src="/assets/images/about/about-profile.png" alt="" />
+                <ul>
+                    <li class="follow ">
+                        <h5>e-mail</h5>
+                        <a class="follow-icon" href="mailto:marikohirasawa@gmail.com?subject=hello">
+                            <div class="follow-name">
+                                <span class="sr-only">Email:</span>
+                                marikohirasawa@gmail.com
+                            </div>
+                        </a>
+                    </li>
+                    <li class="follow follow-abt">
+                        <h5>linkedin</h5>
+                        <a class="follow-icon" href="https://www.linkedin.com/in/mariko-hirasawa-5259a824">
+                            <div class="follow-name">
+                                <span class="sr-only">LinkedIn:</span>
+                                mariko&#8209;hirasawa
+                            </div>
+                        </a>
+                    </li>
+                    <li class="follow follow-abt">
+                        <h5>instagram</h5>
+                         <a class="follow-icon" href="https://www.instagram.com/marikohirasawa">
+                            <div class="follow-name">
+                                <span class="sr-only">IG:</span>
+                                @marikohirasawa
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
-
-<script>
-
-</script>
