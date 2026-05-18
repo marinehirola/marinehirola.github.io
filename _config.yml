@@ -1,9 +1,27 @@
+encoding: "utf-8"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
-exclude:
-  - digitalgarden
+
+plugins:
+  - jekyll-last-modified-at
+
 collections:
   pages:
     output: true # Set to render files in _pages folder
-    permalink: /:title/ # Set the format of the permalink by default 
+    permalink: /:title/ # Set the format of the permalink by default
+  notes:
+    output: true
+    permalink: /notes/:slug
+
+defaults:
+  - scope:
+      path: "_notes/**/*.md"
+    values:
+      layout: "garden-note"
+
+use_html_extension: false
+
+exclude:
+  - digitalgardensave/
+  - _includes/notes_graph.json
