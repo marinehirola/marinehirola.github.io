@@ -1,5 +1,4 @@
 ---
-layout: post
 title: mariko - journal - coffee coffee cup
 page-title: Coffee Coffee Cup
 tags: EXPERIMENT / BIOPLASTICS
